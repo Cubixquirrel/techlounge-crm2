@@ -1,0 +1,91 @@
+form {
+    margin: 15px;
+    background: #ffffff;
+    padding: 20px 20px 25px 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    display: block;
+    color: #000000;
+}
+
+.form-group input, .form-group select {
+    background: #ffffff !important;
+    box-shadow: 0 0 0px 1000px #ffffff inset !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    display: block;
+    padding: 10px;
+    border-radius: 0px !important;
+    border: 2px solid #8a8a8a;
+    outline: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.form-group input:read-only {
+    background: #e9ecef !important;
+    box-shadow: 0 0 0px 1000px #e9ecef inset !important;
+}
+
+.form-control:read-only {
+    background: #e9ecef !important;
+    display: block;
+    padding: 10px;
+    border-radius: 0px !important;
+    border: 2px solid #8a8a8a;
+    outline: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.form-control {
+    background: #ffffff !important;
+    display: block;
+    padding: 10px;
+    border-radius: 0px !important;
+    border: 2px solid #8a8a8a;
+    outline: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 100% !important;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.form-group select {
+    padding: 10px 5px !important;
+}
+
+.text-danger {
+    color: #f44336;
+}
+
+.send-button {
+    background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+    border: 0;
+    padding: 10px 15px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    outline: none !important;
+    box-shadow: none !important;
+    cursor: pointer;
+}

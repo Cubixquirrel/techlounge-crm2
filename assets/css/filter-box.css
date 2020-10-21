@@ -1,0 +1,113 @@
+.sorting-main {
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    border-radius: 0px;
+    margin-bottom: 20px !important;
+    margin: 0 15px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 780px) {
+    .sorting-box {
+        display: table;
+        width: 100%;
+    }
+
+    .sorting-box select {
+        background: #e9ecef !important;
+        color: #000000 !important;
+        -webkit-text-fill-color: #000000 !important;
+        padding: 10px;
+        border-radius: 0px !important;
+        border: 2px solid #8a8a8a;
+        outline: none !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+
+    .sorting-box div {
+        display: table;
+        width: 100%;
+    }
+
+    .filter-button span {
+        display: inline-block !important;
+        background: linear-gradient(120deg, #ff5934 0%, #a50000 100%);
+        color: #ffffff !important;
+        padding: 11px 15px;
+        margin: 0 !important;
+        box-sizing: border-box;
+        border-radius: 0px;
+        margin-left: 6px !important;
+        margin-top: 10px !important;
+        cursor: pointer;
+        margin-bottom: 5px !important;
+        /* border: 2px solid #ff5934 !important; */
+    }
+    
+    .sorting-box div span {
+        font-size: 14px;
+        margin: 5px;
+        color: #8a8a8a;
+        display: block;
+    }
+}
+
+@media (min-width: 780px) {
+    .sorting-box {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sorting-box select {
+        background: #e9ecef !important;
+        color: #000000 !important;
+        -webkit-text-fill-color: #000000 !important;
+        padding: 10px;
+        border-radius: 0px !important;
+        border: 2px solid #8a8a8a;
+        outline: none !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        box-sizing: border-box;
+        margin: 5px;
+        width: 100%;
+    }
+
+    .sorting-box div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+
+    .filter-button {
+        width: fit-content !important;
+    }
+
+    .filter-button span {
+        display: inline-block !important;
+        background: linear-gradient(120deg, #ff5934 0%, #a50000 100%);
+        color: #ffffff !important;
+        padding: 11px 15px;
+        margin: 0 !important;
+        box-sizing: border-box;
+        border-radius: 0px;
+        margin-left: 15px !important;
+        margin-right: 5px !important;
+        cursor: pointer;
+        /* border: 2px solid #ff5934 !important; */
+    }
+    
+    .sorting-box div span {
+        font-size: 14px;
+        margin: 10px;
+        color: #8a8a8a;
+        white-space: nowrap;
+    }
+}

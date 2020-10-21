@@ -1,0 +1,4 @@
+0	*	*	*	*	/usr/bin/php /home/premlata/crm.techlounge.co.in/cron/cron.php >> /home/premlata/cron.log 2>&1	Edit   Delete
+0	0	*	*	*	/usr/bin/php /home/premlata/crm.techlounge.co.in/cron/cron-aadhaar-issue.php >> /home/premlata/cron-aadhaar-issue.log 2>&1	Edit   Delete
+0	0	*	*	*	/usr/bin/php /home/premlata/crm.techlounge.co.in/cron/cron-dnf.php >> /home/premlata/cron-dnf.log 2>&1	Edit   Delete
+0	0	*	*	*	/usr/bin/php /home/premlata/crm.techlounge.co.in/cron/cron-schedule-call.php >> /home/premlata/cron-schedule-call.log 2>&1	Edit   Delete

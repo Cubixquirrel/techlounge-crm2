@@ -1,0 +1,4 @@
+[10-Jun-2020 01:20:24 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'Requests_Exception' not found in /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/library/Requests/Exception/HTTP.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/library/Requests/Exception/HTTP.php on line 13

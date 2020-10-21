@@ -1,0 +1,117 @@
+@media (max-width: 780px) {
+    .info-main {
+        display: table;
+        padding: 0px 10px 0 10px;
+        box-sizing: border-box;
+    }
+
+    .info-box {
+        background: #ffffff;
+        width: calc(50% - 10px);
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        border-radius: 0px;
+        cursor: pointer;
+        margin: 5px;
+        color: #8a8a8a;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (min-width: 780px) {
+    .info-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px 0 15px;
+        box-sizing: border-box;
+    }
+
+    .info-box {
+        background: #ffffff;
+        width: 24.3%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        border-radius: 0px;
+        cursor: pointer;
+        color: #8a8a8a;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.info-box i {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.info-box .icon-edit1 {
+    background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+}
+
+.info-box .icon-thumbs-up1 {
+    background: linear-gradient(120deg, #f0c219 0%, #d26109 100%);
+}
+
+.info-box .icon-trash-2{
+    background: linear-gradient(120deg, #ff5934 0%, #a50000 100%);
+}
+
+.info-box .icon-check-circle {
+    background: linear-gradient(120deg, #8BC34A 0%, #35690f 100%);
+}
+
+.info-text span {
+    display: block;
+}
+
+.info-text span:first-child {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info-box.active .info-text span:first-child, .info-box:hover .info-text span:first-child {
+    color: #ffffff;
+}
+
+.info-text span:last-child {
+    font-size: 14px;
+}
+
+.info-box:nth-child(1).active, .info-box:nth-child(1):hover {
+    background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+    color: #ffffff !important;
+    /* border: 2px solid #00b5fd; */
+}
+
+.info-box:nth-child(2).active, .info-box:nth-child(2):hover {
+    background: linear-gradient(120deg, #f0c219 0%, #d26109 100%);
+    color: #ffffff !important;
+    /* border: 2px solid #f0c219; */
+}
+
+.info-box:nth-child(3).active, .info-box:nth-child(3):hover {
+    background: linear-gradient(120deg, #ff5934 0%, #a50000 100%);
+    color: #ffffff !important;
+    /* border: 2px solid #ff3434; */
+}
+
+.info-box:nth-child(4).active, .info-box:nth-child(4):hover {
+    background: linear-gradient(120deg, #8BC34A 0%, #35690f 100%);
+    color: #ffffff !important;
+    /* border: 2px solid #8BC34A; */
+}

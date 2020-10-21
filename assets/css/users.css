@@ -1,0 +1,169 @@
+.user-main-container {
+    padding: 0 15px 25px 15px;
+}
+
+.users {
+    padding: 15px;
+}
+
+.users .table-second {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.users .location-column {
+    color: #000000 !important;
+}
+
+.users .first-inner:last-child {
+    padding-left: 10px;
+    margin-left: 7px;
+    background: #e9ecef;
+    padding: 10px 15px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.users .first-inner:last-child .business-column {
+    color: #000000;
+}
+
+.users .status {
+    width: 12px;
+    height: 12px;
+    display: inline-block !important;
+    margin-left: 10px;
+    /* text-align: right; */
+}
+
+.users .third-inner {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.users .second-inner:last-child {
+    margin-left: 10px;
+}
+
+.users .third-inner > span:first-child {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user-main-container .action-main-box {
+    border: 2px solid #8a8a8a;
+}
+
+.users .client-name-column span {
+    margin: 5px;
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-weight: 400;
+    color: #8a8a8a;
+    font-size: 14px;
+}
+
+#add-user, #edit-user, #hold, #un-hold {
+    background: #e9ecef;
+    color: #000000 !important;
+    padding: 10px 15px;
+    margin: 0 !important;
+    box-sizing: border-box;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    margin: 5px !important;
+    text-align: center;
+    /* border: 2px solid #e9ecef !important; */
+}
+
+#add-user:hover, #edit-user:hover, #hold:hover, #un-hold:hover {
+    background: linear-gradient(120deg, #f0c219 0%, #d26109 100%);
+    color: #ffffff !important;
+}
+
+.table-main-container.user-main-container .action-main-box {
+    padding: 15px 10px;
+}
+
+@media (max-width: 780px) {
+    .table-main-container.user-main-container .action-main-box {
+        display: table;
+        width: 100%;
+    }
+
+    #add-user, #edit-user, #hold, #un-hold {
+        width: calc(50% - 10px);
+    }
+}
+
+.table.users.blocked.active, .table.users.unblocked.active {
+    background: #ffffff;
+    border: 2px solid #80bdff;
+}
+
+.table.users.blocked.active .table-first, .table.users.blocked.active .table-second, .table.users.unblocked.active .table-first, .table.users.unblocked.active .table-second {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.table.users.blocked.active .second-inner:last-child {
+    border-left: 1px solid #e9ecef;
+}
+
+.table.users.blocked {
+    background: rgba(254, 52, 52, 0.1);
+    border: 2px solid #ff3434;
+}
+
+.table.users.blocked .table-first, .table.users.blocked .table-second {
+    border-bottom: 1px solid #FFCDD2;
+}
+
+.table.users.blocked .second-inner:last-child {
+    border-left: 1px solid #FFCDD2;
+}
+
+.action-main-box {
+    margin-top: 0px;
+}
+
+@media (max-width: 780px) {
+    .third-inner > span > span {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+.third-inner > span > span {
+    background: transparent;
+    padding: 0px;
+    margin: 0px !important;
+    width: 100%;
+}
+
+.users .client-name-column span {
+    font-size: 12px;
+    color: #000000;
+}
+
+.table.users.blocked .first-inner:last-child {
+    background: #ff343417;
+}
+
+.table.users.blocked.active .first-inner:last-child {
+    background:#e9ecef;
+}
+
+.table.users.blocked .client-name-column span {
+    background: #ff343417;
+}
+
+.table.users.blocked.active .client-name-column span {
+    background: #e9ecef;
+}

@@ -1,0 +1,48 @@
+.timeline {
+    padding: 25px 15px 15px 15px;
+    background: #ffffff;
+    box-sizing: border-box;
+    margin: 0px 15px 30px 15px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    border: 2px solid #8a8a8a;
+}
+
+.time-label {
+    background: linear-gradient(120deg, #f0c219 0%, #d26109 100%);
+    color: #ffffff !important;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.timeline-item {
+    background: #e9ecef;
+    padding: 10px;
+    display: block;
+    margin: 15px 0;
+}
+
+.timeline-header {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.timeline-body {
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.empty-box {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.timeline-body span {
+    display: block;
+}
+
+.timeline-body a {
+    color: #0060c2;
+}

@@ -1,0 +1,8 @@
+[10-Jun-2020 01:18:26 CST6CDT] PHP Fatal error:  Uncaught Requests_Exception: cURL error 7: Failed to connect to 127.0.0.1 port 8080: Connection refused in /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/library/Requests.php(317): Requests_Transport_cURL->request('http://httpbin....', Array, NULL, Array)
+#2 /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/library/Requests.php(194): Requests::request('http://httpbin....', Array, NULL, 'GET', Array)
+#3 /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/examples/proxy.php(15): Requests::get('http://httpbin....', Array, Array)
+#4 {main}
+  thrown in /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280

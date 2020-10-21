@@ -1,0 +1,4 @@
+[10-Jun-2020 01:20:27 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'Requests_Utility_CaseInsensitiveDictionary' not found in /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/library/Requests/Response/Headers.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/premlata/public_html/udyogadharcertificate.in/razorpay-php/libs/Requests-1.6.1/library/Requests/Response/Headers.php on line 13

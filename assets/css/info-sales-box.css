@@ -1,0 +1,105 @@
+@media (max-width: 780px) {
+    .info-sales-main {
+        display: table;
+        margin: 10px 15px 10px 15px;
+        width: calc(100% - 30px);
+        box-sizing: border-box;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .info-sales-box {
+        background: #ffffff;
+        width: 33.33%;
+        display: inline-block;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .info-sales-box i {
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        text-align: center;
+        height: 40px;
+        width: 40px;
+        font-size: 16px;
+        color: #ffffff;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .info-sales-text span:last-child {
+        font-size: 12px;
+        color: #8a8a8a;
+    }
+}
+
+@media (min-width: 780px) {
+    .info-sales-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 15px 0 15px;
+    }
+
+    .info-sales-box {
+        background: #ffffff;
+        width: 32.7%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        border-radius: 0px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .info-sales-box i {
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        text-align: center;
+        height: 40px;
+        width: 40px;
+        font-size: 16px;
+        color: #ffffff;
+    }
+
+    .info-sales-text span:last-child {
+        font-size: 14px;
+        color: #8a8a8a;
+    }
+}
+
+.info-sales-box .icon-today {
+    background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+}
+
+.info-sales-box .icon-date_range {
+    background: linear-gradient(120deg, #f0c219 0%, #d26109 100%);
+}
+
+.info-sales-box .icon-event_available {
+    background: linear-gradient(120deg, #ff5934 0%, #a50000 100%);
+}
+
+.info-sales-box .icon-check-circle {
+    background: linear-gradient(120deg, #8BC34A 0%, #35690f 100%);
+}
+
+.info-sales-text span {
+    display: block;
+}
+
+.info-sales-text span:first-child {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}

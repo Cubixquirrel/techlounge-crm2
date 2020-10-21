@@ -1,0 +1,120 @@
+.table-main-container.campaign-container {
+    padding: 0 15px;
+}
+
+.campaign-header {
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header-action-button {
+    background: linear-gradient(120deg, #8BC34A 0%, #35690f 100%);
+    color: #ffffff !important;
+    padding: 12px 15px;
+    margin: 0 !important;
+    box-sizing: border-box;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.table-body-container.campaign-body-container {
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    border: 2px solid #8a8a8a;
+}
+
+.campaign-inner-container {
+    width: 100%;
+}
+
+.campaign-first-inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.campaign-date {
+    font-size: 14px;
+    color: #8a8a8a;
+    display: block;
+}
+
+.campaign-name {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+
+.campaign-schedule-time {
+    color: #8BC34A;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+
+.orange-box {
+    padding-left: 10px;
+    margin-left: 7px;
+    background: linear-gradient(120deg, #f0c219 0%, #d26109 100%);
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.campaign-email-group {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: right;
+    display: block;
+}
+
+.campaign-email-group-type {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: right;
+    display: block;
+}
+
+.campaign-from-email {
+    display: block;
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.campaign-from-email > span {
+    color: #00b5fd !important;
+    display: inline-flex !important;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.campaign-subject {
+    display: inline-block;
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: #8a8a8a;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

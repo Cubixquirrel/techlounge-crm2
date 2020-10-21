@@ -1,0 +1,57 @@
+.merge-client-form {
+    background: #ffffff;
+    padding: 25px 20px 25px 20px;
+    border-radius: 0px;
+    margin: 0 15px;
+    margin-bottom: 25px !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.merge-client-form-group {
+    margin-bottom: 15px;
+}
+
+.merge-client-form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.merge-client-form input, .merge-client-form select {
+    background: #e9ecef !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    display: block;
+    padding: 10px;
+    border-radius: 0px !important;
+    border: 2px solid #8a8a8a;
+    outline: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.merge-client-form select {
+    padding: 10px 6px;
+}
+
+.merge-button {
+    background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+    border: 0;
+    padding: 10px 15px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    outline: none !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    margin-left: 1px;
+    margin-top: 4px;
+}
+
+.merge-button.error {
+    background: linear-gradient(120deg, #ff5934 0%, #a50000 100%);
+}

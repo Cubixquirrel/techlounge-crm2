@@ -1,0 +1,91 @@
+.add-stage-form {
+    background: #ffffff;
+    padding: 25px 20px 25px 20px;
+    border-radius: 0px;
+    margin: 0 15px;
+    margin-bottom: 25px !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.add-stage-form-group {
+    margin-bottom: 15px;
+}
+
+.add-stage-form input, .add-stage-form select {
+    background: #e9ecef !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    display: block;
+    padding: 10px;
+    border-radius: 0px !important;
+    border: 2px solid #8a8a8a;
+    outline: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-stage-form select {
+    padding: 10px 6px;
+}
+
+.add-button {
+    background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+    border: 0;
+    padding: 10px 15px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    outline: none !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    margin-left: 1px;
+    margin-top: 4px;
+    /* border: 2px solid #00b5fd !important; */
+}
+
+.add-button.error {
+    background: linear-gradient(120deg, #ff5934 0%, #a50000 100%);
+}
+
+.add-business {
+    background: none !important;
+    font-size: 12px !important;
+    border-radius: 0px !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    cursor: pointer !important;
+}
+
+.edit-stage-form-group.team-box {
+    display: table;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 10px;
+}
+
+.edit-stage-form-group.team-box span {
+    background: #e9ecef;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 12px;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #000000;
+    display: inline-flex;
+    margin-bottom: 10px;
+    /* border: 2px solid #e9ecef; */
+}
+
+.edit-stage-form-group.team-box span.active {
+    background: linear-gradient(120deg, #f0c219 0%, #d26109 100%);
+    color: #ffffff !important;
+}
+
+.add-business {
+    border: 0 !important;
+}
